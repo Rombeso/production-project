@@ -7,13 +7,14 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-//    "baseUrl": ".",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "lib": [
       "dom",
-//      "es5",
-//      "scripthost",
       "es2017"
     ]
   },
