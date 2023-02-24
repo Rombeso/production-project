@@ -2,6 +2,7 @@
   --bg-color: #ffffff;
 
   --primary-color: #6200EE;
+  --primary-color-rgb: 98,0,238;
   --secondary-color: #03DAC6;
 
   --on-primary-color: #FFFFFF;
@@ -10,5 +11,9 @@
   --on-error-color: #FFFFFF;
 
   --error-color: #B00020;
+
+  --surface-opacity-8: 0.8;
+
+  --surface-bg-color: rgba(var(--primary-color-rgb), 0.85);
 
 }
