@@ -6,15 +6,16 @@ import {classNames} from "shared/lib/classNames";
 import {AboutPage} from "pages/AboutPage";
 import {MainPage} from "pages/MainPage";
 import {Navbar} from "widgets/Navbar";
+import {ThemeSwitcher} from "widgets/ThemeSwitcher";
 
 
 const App = () => {
 
-    const {theme, toggleTheme} = useTheme()
+    const {theme} = useTheme()
 
     return (
         <div className={classNames('app', {}, [theme])}>
-            <button onClick={toggleTheme}>TOGGLE</button>
+            <ThemeSwitcher />
             <Navbar/>
             <Suspense fallback={<div>Загрузка...</div>}>
                 <Routes>
