@@ -9,7 +9,6 @@ import {Button, ThemeButton} from "shared/ui/Button/Button";
 
 interface ThemeSwitcherProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     className?: string;
-    // theme?: ThemeThemeSwitcher;
 }
 
 export const ThemeSwitcher = (props: ThemeSwitcherProps) => {
@@ -18,7 +17,7 @@ export const ThemeSwitcher = (props: ThemeSwitcherProps) => {
 
     return (
         <Button theme={ThemeButton.CLEAR} onClick={toggleTheme} className={classNames(cls.ThemeSwitcher, {}, [className])}>
-            {theme === Theme.DARK ? <DarkIcon/> : <LightIcon/>}
+            {theme === Theme.DARK ? <DarkIcon color={'white'}/> : <LightIcon/>}
         </Button>
     )
 }

@@ -7,6 +7,10 @@ import {AboutPage} from "pages/AboutPage";
 import {MainPage} from "pages/MainPage";
 import {Navbar} from "widgets/Navbar";
 import {ThemeSwitcher} from "widgets/ThemeSwitcher";
+import {Sidebar} from "widgets/Sidebar";
+import {AppRouter} from "app/providers/router";
+import {useTranslation} from "react-i18next";
+
 
 
 const App = () => {
@@ -15,14 +19,14 @@ const App = () => {
 
     return (
         <div className={classNames('app', {}, [theme])}>
-            <ThemeSwitcher />
-            <Navbar/>
-            <Suspense fallback={<div>Загрузка...</div>}>
-                <Routes>
-                    <Route path={'/about'} element={<AboutPage/>}/>
-                    <Route path={'/'} element={<MainPage/>}/>
-                </Routes>
+            <Suspense fallback={''}>
+                <Navbar/>
+                <div className='content-page'>
+                    <Sidebar/>
+                    <AppRouter/>
+                </div>
             </Suspense>
+
         </div>
     );
 };
