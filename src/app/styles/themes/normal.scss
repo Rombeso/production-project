@@ -1,19 +1,13 @@
 .app.light {
-  --bg-color: #ffffff;
-
-  --primary-color: #6200EE;
-  --primary-color-rgb: 98,0,238;
-  --secondary-color: #03DAC6;
-
-  --on-primary-color: #FFFFFF;
-  --on-secondary-color: #000000;
-  --on-bg-color: #000000;
-  --on-error-color: #FFFFFF;
-
-  --error-color: #B00020;
-
+  --bg-color: #fff;
+  --primary-color: #6200ee;
+  --primary-color-rgb: 98, 0, 238;
+  --secondary-color: #03dac6;
+  --on-primary-color: #fff;
+  --on-secondary-color: #000;
+  --on-bg-color: #000;
+  --on-error-color: #fff;
+  --error-color: #b00020;
   --surface-opacity-8: 0.8;
-
-  --surface-bg-color: rgba(var(--primary-color-rgb), 0.85);
-
+  --surface-bg-color: rgb(var(--primary-color-rgb) 0.85);
 }
