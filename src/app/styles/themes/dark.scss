@@ -5,8 +5,8 @@
   --on-primary-color: #000;
   --on-secondary-color: #000;
   --on-bg-color: #fff;
-  --on-bg-color-rgb: 255, 255, 255;
+  --on-bg-color-rgb: 255 255 255;
   --on-error-color: #000;
   --error-color: #cf6679;
-  --surface-bg-color: rgb(var(--on-bg-color-rgb) 0.15);
+  --surface-bg-color: rgb(var(--on-bg-color-rgb) / 15%);
 }
