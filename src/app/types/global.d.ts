@@ -4,6 +4,8 @@ declare module '*.scss' {
     }
     const classNames: IClassNames;
     export = classNames;
+    // const content: Record<string, string>;
+    // export default content;
 }
 
 declare module '*.png';
