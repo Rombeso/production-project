@@ -11,6 +11,8 @@
 # production
 /build
 /storybook-static
+.loki/report.html
+.loki/report.json
 
 # misc
 .DS_Store
