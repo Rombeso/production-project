@@ -8,5 +8,7 @@
   "Короткий язык": "Ru",
   "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
   "Обновить страницу": "Обновить страницу",
-  "throw error": "throw error"
+  "throw error": "throw error",
+  "increment": "increment",
+  "decrement": "decrement"
 }
