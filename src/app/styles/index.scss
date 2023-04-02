@@ -4,7 +4,7 @@
 @import "./themes/normal";
 @import "reset";
 /* stylelint-enable */
-body {
+.app, .app_modal {
   font: var(--font-m);
 }
 
