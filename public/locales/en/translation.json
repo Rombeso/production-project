@@ -5,6 +5,17 @@
   "Переключить": "Toggle",
   "Главная": "Main",
   "О проекте": "About",
-"Произошла непредвиденная ошибка": "An unexpected error has occurred",
-  "Обновить страницу": "Reload page"
+  "Короткий язык": "Eng",
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+  "Обновить страницу": "Reload page",
+  "throw error": "throw error",
+  "Перевод": "Translate",
+  "Главная страница": "Main page",
+  "новый перевод": "новый перевод",
+  "О сайте": "About us",
+  "Войти": "Login",
+  "increment": "increment",
+  "decrement": "decrement",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль"
 }
